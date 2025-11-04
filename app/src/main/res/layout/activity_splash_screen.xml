@@ -5,15 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#1A2F28"
+    tools:context=".SplashScreenActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="161dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="290dp"
+        android:contentDescription="@string/app_logo"
+        android:src="@mipmap/ic_launcher_round"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
