@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartWaste">
         <activity
+            android:name=".SlideItem"
+            android:exported="false"
+            android:theme="@style/Theme.SmartWaste" />
+        <activity
             android:name=".OnboardingSliderActivity"
             android:exported="false" />
         <activity
